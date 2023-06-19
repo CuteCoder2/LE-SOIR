@@ -1,0 +1,118 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.second-navbar , .main-footer {
+  background-color: #05053b !important;
+  color: white !important;
+  font-family:  'Times New Roman', Times, serif;
+}
+
+.main-footer ul li a {
+  color: white !important;
+}
+
+.nav-pills li  a{
+  color:  #05053b;
+}
+.nav-pills li .active{
+  background-color: #05053b !important;
+
+}
+
+.signup-btn {
+  background-color: gold;
+  border-radius: 35%;
+}
+
+.signin-btn {
+  color: aliceblue;
+}
+
+.main-section {
+  margin-top: 10rem;
+  margin-bottom:2rem;
+}
+
+.sub-toitle-img{
+  width:150px;
+  height:150px;
+  position: relative;
+  float: left;
+}
+
+li{
+  list-style: none;
+}
+
+.date-posted{
+  font-size: larger;
+  font-weight: 600;
+}
+
+.date-posted , .post , .see-more-btn , .title-sub{
+  color: #05053b;
+}
+
+.see-more-btn , .btn-top-2 , .btn-top-1{
+  font-size: 16pt;
+  font-weight: 600;
+  width: 70%;
+  border-radius: 1rem;
+  border: 2px solid #05053b;
+  text-transform: uppercase;
+}
+
+
+.see-more-btn:hover , .btn-top-1:hover {
+  background-color:#05053b;
+  color: white;
+  transition: all 0.4 ease-in;
+  outline:1px solid #05053b;
+  border-color:  white;
+}
+
+.btn-top-1{
+  background-color: #05053b;
+  border-radius: 1rem;
+  color: white;
+  outline:1px solid #05053b;
+  border: 2px solid white;
+  text-transform: uppercase;
+
+}
+.title-sub {
+  font-weight: 500;
+  text-transform: uppercase;
+  text-decoration: underline;
+}
+
+.title-sub:hover{
+  color: #05053bb0;
+  font-weight: 400;
+  cursor: pointer;
+  transition: all 0.2s ease-in-out;
+}
+
+.tile-fil{
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-weight: 600;
+  text-transform: uppercase;
+}
+.floating-menu{
+  top: 40%;
+  right: 0;
+
+}
+
+.float-item{
+  color: #05053b;
+  font-size: 8pt;
+  border-left: 1px solid #05053b;
+  border-bottom: 3px solid #05053b;
+  border-radius:0 0 8px 8px;
+  text-align: center;
+  background-color: rgba(238, 235, 235, 0.979);
+}
