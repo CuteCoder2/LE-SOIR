@@ -32,7 +32,7 @@
 }
 
 .main-section {
-  margin-top: 10rem;
+  margin-top: 15rem;
   margin-bottom:2rem;
 }
 
@@ -115,4 +115,15 @@ li{
   border-radius:0 0 8px 8px;
   text-align: center;
   background-color: rgba(238, 235, 235, 0.979);
+}
+
+.banner {
+  margin: 8px;
+  height: 4.5rem;
+  width: 50rem;
+}
+
+.main-article{
+  margin-top: 8rem !important;
+  margin-bottom: 4rem !important;
 }
